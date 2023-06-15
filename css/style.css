@@ -62,16 +62,16 @@ header {
     margin-top: 90px;
 
     display: flex;
-   justify-content: space-between;
+    justify-content: space-between;
     align-items: center;
 
-    
+
 }
 
-.section1_hp{
-   
+.section1_hp {
+
     width: 40%;
-    
+
     display: flex;
     flex-direction: column;
     row-gap: 24px;
@@ -89,22 +89,22 @@ header {
     color: #000000;
 }
 
-.button_title{
-    
+.button_title {
+
     width: 70%;
     margin-top: 40px;
-    
+
     display: flex;
     align-items: center;
     gap: 44px;
-    
+
 }
 
-.section_button{
-   
-    
+.section_button {
+
+
     padding: 12px 24%;
-    
+
     border-radius: 30px;
 
     background-color: #000000;
@@ -116,18 +116,50 @@ header {
 
 .button_p {
     font-weight: 600;
-font-size: 14px;
-color: #000000;
+    font-size: 14px;
+    color: #000000;
 }
 
 /* ************ article *********** */
 
-.article{
-    
+.article {
+
     width: 100%;
     height: 256px;
     margin-top: 64px;
 
-    background: #F3F3F3;;
-    
+    padding: 64px 12%;
+
+    background: #F3F3F3;
+
+    display: flex;
+    flex-grow: 1;
+    gap: 30px;
+
 }
+
+
+.eclipse_h4 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.articlecard_h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.articlecards_p {
+    margin-top: 16px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+/* ************ section 2 *********** */
+
