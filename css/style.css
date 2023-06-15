@@ -232,9 +232,10 @@ header {
 footer {
     background-color: #000000;
 
-    padding: 6% 12%;
+    padding: 6% 8%;
 
     display: flex;
+    
     
    
 
@@ -287,3 +288,4 @@ footer {
     color: #FFFFFF;
     opacity: 0.4;
 }
+
